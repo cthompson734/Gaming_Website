@@ -1,0 +1,118 @@
+body {
+    background-color: #C0CFC7;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-decoration: underline;
+
+}
+
+hr {
+    border: 2px solid ;
+    width: 80%;
+    margin: 20px auto;
+}
+
+marquee {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.highlight {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.dictionary-term {
+    font-size: 1.3em;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: 3px solid ;
+    border-radius: 8px;
+    width: 250px;
+    margin: 15px 0;
+}
+
+video, audio{
+    margin-top: 20px;
+    width: 80%;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+
+.classic_screenshot_heading {
+  color: #ffcc00;
+  font-family: 'Comic Sans MS', cursive;
+  text-shadow: 2px 2px #000;
+}
+
+.game_box_art {
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 325px;
+   
+}
+
+
+.game_box_art:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #FFFF00;
+  
+}
+
+.game_link {
+    color: #ffcc00;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+    text-shadow: 2px 2px #000;
+    
+}
+
+.audio-tag {
+    width: 800px;                     
+    margin: auto;                
+    display: block;                                     
+    background-color: #C0CFC7;
+    border: none;             
+}
+
+.videos-row {
+    display: flex;                 
+    justify-content: center;       
+    gap: 10px;                     
+    flex-wrap: wrap;
+}              
+
+.video-container {
+    width: 600px;                     
+    height: 500px;                   
+    margin: 20px auto;                     
+    border-radius: 15px;              
+    overflow: hidden;                   
+    background-color: #C0CFC7;        
+}
